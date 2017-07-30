@@ -39,6 +39,8 @@
 };
 
 &cci {
+	/delete-property/ qcom,actuator@1;
+	/delete-property/ qcom,ois@0;
 	qcom,camera@0 {
 		cell-index = <0>;
 		compatible = "qcom,camera";
